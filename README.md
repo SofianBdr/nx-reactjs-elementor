@@ -4,8 +4,9 @@ Nx plugin to generate Wordpress plugin that enrich Elementor with ReactJS widget
 All widget are wrapped in web component that will act as a proxy between elementor and react.
 all web components uses shadow dom to prevent css overload.
 
-
-![image](https://github.com/SofianBdr/img-react-elementor/blob/main/modele.drawio.png?raw=true)
+<div style="text-align: center;">
+  <img src="https://github.com/SofianBdr/img-react-elementor/blob/main/modele.drawio.png?raw=true" alt="schéma">
+</div>
 
 State between component is maintained using Redux. but you can use the provider of your choice.
 ![image](https://raw.githubusercontent.com/betrueagency/nx-reactjs-elementor/main/img/elementor-widgets.jpg)
